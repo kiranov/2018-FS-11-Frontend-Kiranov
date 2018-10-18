@@ -1,3 +1,4 @@
+/* eslint-env browser */
 const say = function (name) {
   const d = document.createElement('div');
   d.innerHTML = `Hello ${name}`;
